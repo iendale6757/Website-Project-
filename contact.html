@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="contact.css">  
+    <script src="contact.js"></script>  
+</head>
+<body>
+    <header id = "main-header">
+        <div class = "container">
+          <h1> Revalation Inc. </h1>
+        </div>
+    </header>       
+    
+    <nav id = "navbar">
+        <div class = "container">
+          <ul>
+            <li> <a href = "index.html"> Home </a></li>
+            <li> <a href = "contact.html"> Contact </a></li>
+            <li> <a href = "TechNews.html"> Tech News </a></li>
+            <li> <a href = "CovidInfo.html"> Covid-19 </a></li>
+            <li> <a href = "about.html"> About Me </a></li>
+          </ul>
+        </div>
+    </nav>
+    <section id = "showcase">
+        <div class = "container">
+          <h1 style = "font-size: 72px;"> CONTACT </h1>
+        </div>
+    </section>
+ <!--THIS IS WHEN THE NAV BAR ENDS-->
+   <div class="row">
+     <div class="column">
+          <h2> Social Media </h2>
+          <ul>
+            <li><a href = "https://discord.com/login">-----------DISCORD----------</a></li>
+            <li><a href = "https://www.instagram.com/">-----------INSTAGRAM----------</a></li>
+            <li><a href = "https://twitter.com/i/flow/signup">-----------TWITTER----------</a></li>
+          </ul>
+        </div>
+     <div class="column">
+         <h2> Please fill out the survey  </h2>
+          <label for="rateing"> Rate the website 1-5 with five being the highest:</label>
+          <select name="rateing" id="rateing">
+            <option value="one"> one </option>
+            <option value="two"> two </option>
+            <option value="three"> three </option>
+            <option value="four"> four </option>
+            <option value="five"> five </option>
+          </select>
+          <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value = " "><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value = " ">
+          </form>
+          <button onclick = "Code()"> Confirm </button>
+          <button onclick = "reset()"> Restart </button>
+     </div>
+   </div>
+  
+        
+</body>
+</html>
